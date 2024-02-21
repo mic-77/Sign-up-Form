@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Caveat", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  background-image: url("./cat.jpg");
+  width: 40vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 60vw;
+}
+
+.form {
+  height: 30vh;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  height: 40vh;
+}
+
+.form {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 5px #e5e7eb;
+}
+
+.form h3 {
+  margin-bottom: 20px;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+
+input {
+  width: 250px;
+  border: 1px solid #e5e7eb;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 15px;
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+}
+
+#error {
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.btn-green {
+  background-color: #596d48;
+  color: white;
+  border: 1px solid #596d48;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  font-weight: bolder;
+  font-size: small;
+  box-shadow: 2px 5px #e5e7eb;
+}
+.submit {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.hyperlink {
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.hyperlink a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forImage {
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.forFooter {
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.forFooter a {
+  color: rgb(230, 227, 227);
+}
+
+.forFooter p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.semi-transparent {
+  width: 100%;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Caveat:wght@400..700&family=Press+Start+2P&family=Tomorrow&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign-up Form for Cat</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="forImage"><div class="semi-transparent"><img src="logo.png" alt="Logo" height="100px"></div></div>
+        <div class="forFooter">Photo by <a href="">???</a>on <a href="">Upslash</a></div>
+      </div>
+      <div class="right">
+        <div class="description">
+          <h2>
+            This is not a real online service! You know you need something <br>like
+            this in your life to help you realize your deepest dreams.
+          <br>Sign up <em>now</em> to get started.</br>
+          <br>You know you want to.</br>
+        </h2>
+        </div>
+        <form action="" method="get" class="form-main-div">
+        <div class="form">
+          <h3>Let's do this!</h3>
+          <div class="form-container">
+          <div class="form-divs">
+            <div class="form-div">  
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" required>
+            </div>
+            <div class="form-div">  
+              <label for="email">Email:</label>
+              <input type="email" id="email" required></div>
+            <div class="form-div">  
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <p id="error">*password do not match</p>
+              </div>
+            </div>
+            <div class="form-divs">
+              <div class="form-div">  
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="Last_name" required>
+              </div>
+            <div class="form-div">  
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" required></div>
+              <div class="form-div">  
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" required></div>
+              </div>
+            </div>
+          </div>
+          <div class="submit">
+            <button type="submit" class="btn-green">Create Account</button>
+          </div>
+        </form>
+        <div class="hyperlink">
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </div>
+      </div>
+    <script src="function.js"></script>
+  </body>
+</html>
